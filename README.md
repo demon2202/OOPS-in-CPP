@@ -181,137 +181,21 @@ Highlighting the set of services by hiding internal implementation details is ca
 By using abstract Class and interface, we can implement abstraction
 
 ## 11. What are the types of variables in OOP?
-Variables are basic units to store data in RAM for Java programs.
-Variables should be declared before using them in Java programming. Variable initialization can be static or dynamic. The syntax for variable declaration and static initialization is: –
-Types of variables
-Primitive Variables: It is used to represent primitive values like int, float, etc.
-Reference Variables: It is used to refer to objects in Java.
-Instance Variables: Variables whose value varied from object to object are instance variables. For every object, a separate copy of the instance variable is created. Instance variables are declared within the Class and outside any method/block/constructor
-Static variables: For static Variables, a single copy of the variable is created, and that copy is shared between every Class object. The static variable is created during class loading and destroyed at class unloading.
-Static variables can be accessed directly from the static and instance area. We are not required to perform initialization explicitly for static variables, and JVM will provide default values.
-Local Variables: Variables declared inside a method or block or constructor are local variables. Hence the scope of local variables is the same as the block’s scope in which we declared that variable.
-JVM doesn’t provide default values, and before using that variable, the initialization should be performed explicitly.
+Variables are basic units to store data in RAM for Python programs.
 
+- Primitive Variables: It is used to represent primitive values like int, float, etc.
+- Reference Variables: It is used to refer to objects in Java.
+- Instance Variables: Variables whose value varied from object to object are instance variables. For every 
+  object, a separate copy of the instance variable is created. Instance variables are declared within the 
+  Class and outside any method/block/constructor
+- Static variables: For static Variables, a single copy of the variable is created, and that copy is 
+  shared between every Class object. The static variable is created during class loading and destroyed at 
+  class unloading.
+- Static variables can be accessed directly from the static and instance area. We are not required to 
+  perform initialization explicitly for static variables, and JVM will provide default values.
+- Local Variables: Variables declared inside a method or block or constructor are local variables. Hence 
+  the scope of local variables is the same as the block’s scope in which we declared that variable.
 
-## 11. What is the output of the below code?
-
-class Person
-{    
-private String show()
-{        
-return “This is a person”;    
-}
-}
-class Teacher extends Person
-{    
-protected String show()
-{        
-return “This is a teacher”;    
-}
-}
-public class MathsTeacher extends Person
-{
-    @Override    public final String show()
-{        
-return “This is a Maths teacher”;    
-}
-public static void main(String[] name)
-{        
-final Person mt = new MathsTeacher();        
-System.out.print(mt.show());    
-}
-}
-The output will be: This is a Maths teacher
-
-## 12. Find the output of the below code.
-
-class Arithmetic
-{    
-public final double var = 5;
-}
-class DeepArith extends Arithmetic
-{    
-public final double var = 10;
-}
-public class AdvancedArith extends DeepArith
-{    
-public final double secret = 20;
-public static void main(String[] num)
-{        
-Arithmetic arith = new AdvancedArith();        
-System.out.print(arith.var);    
-}
-}
-The correct output for this code is 5.
-
-## 13. Predict the output of the following.
-
-class Parent
-{
-public void display()
-{
-System.out.println(“Parent”);
-}
-}
-class Child extends Parent
-{ private void display()
-{ System.out.println(“Child”);
-}
-}
-public class main
-{
-public static void main(String args[])
-{
-Parent node = new Child(); node.show();
-}
-}
-Running this code will generate a compile error as a sub-class function overriding a super class function cannot be given more restrictive access.
-
-## 14. Implement a Stack data structure using a LinkedList in Python.
-class Node:
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
-
-class Stack:
-    def __init__(self):
-        self.head = None
-
-    def is_empty(self):
-        return self.head is None
-
-    def push(self, data):
-        new_node = Node(data)
-        new_node.next = self.head
-        self.head = new_node
-
-    def pop(self):
-        if self.is_empty():
-            raise Exception("Stack is empty")
-        popped_value = self.head.data
-        self.head = self.head.next
-        return popped_value
-        
-## 15. Implement an abstract class in C# with an abstract method.
-abstract class Shape
-{
-    public abstract double CalculateArea();
-}
-
-class Circle : Shape
-{
-    private double radius;
-
-    public Circle(double radius)
-    {
-        this.radius = radius;
-    }
-
-    public override double CalculateArea()
-    {
-        return Math.PI * radius * radius;
-    }
-}
 ----
 ## Frequently Asked OOPs Interview Questions
 
