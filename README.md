@@ -36,7 +36,7 @@ Abstraction
 ## 5. What is Encapsulation?
 Encapsulation is also a part of the OOPs concept. It refers to the bundling of data with the methods that operate on that data. It also helps to restrict any direct access to some of an object’s components.
 
-## . What is Abstraction?
+## 6. What is Abstraction?
 Abstraction is an OOPs concept to build the structure of real-world objects. It “shows” only essential attributes and “hides” unnecessary information from the outside. The main focus of abstraction is to hide unnecessary details from the users. It is one of the most important concepts of OOPs.
 
 ## 7. What is method overloading?
