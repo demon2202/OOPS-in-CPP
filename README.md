@@ -1,13 +1,13 @@
-# OOPs Interview Questions in 2024
+# OOPs  Questions in 2024
 
 ## Table of Contents
-1. [Basic OOPs Interview Questions]
-2. [OOPs Interview Questions for Experienced]
-3. [Frequently Asked OOPs Interview Questions]
+1. [Basic OOPs Questions]
+2. [OOPs  Questions for Experienced]
+3. [Frequently Asked OOPs  Questions]
 
 ---
 
-## Basic OOPs Interview Questions
+## Basic OOPs Questions
 
 ## 1. What is OOPs?
 Programmers can use objects to represent real-world circumstances thanks to object-oriented programming. Any entity with states and behaviors is an object. While methods define an item’s behaviors, states reflect the characteristics or data of an entity. Objects include students, workers, books, etc. By exchanging messages, these things communicate with one another. A class is also a template for building an object. A class is required in order to generate objects. For instance, there needs to be an Employee class in order to generate an Employee object.
@@ -99,7 +99,7 @@ Visual Basic
 Ruby
 Scala
 PHP
-Check out the OOPs concept in Python Video.
+
 
 ## 15. What is inheritance?
 Whenever one class is derived from another, it is referred to as inheritance. The child class will inherit all of the parent class’s public and protected properties and methods. Apart from the attributes and methods inherited from the parent class, it can also have its own additional set of features. The’ extends’ keyword is used to specify an inherited class.
@@ -132,7 +132,7 @@ When two or more methods in the same class have the same name but different para
 
 ---
 
-## OOPs Interview Questions for Experienced
+## OOPs  Questions for Experienced
 
 ## 1. What is an interface?
 An interface is a user-defined data type and is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface. A class describes an object’s attributes and behaviours, and an interface contains behaviours that a class implements. The Class represents “how,” and the interface represents “what’.
@@ -197,7 +197,7 @@ Variables are basic units to store data in RAM for Python programs.
   the scope of local variables is the same as the block’s scope in which we declared that variable.
 
 ----
-## Frequently Asked OOPs Interview Questions
+## Frequently Asked OOPs  Questions
 
 ## Q: What are the 4 basics of OOP? 
 
