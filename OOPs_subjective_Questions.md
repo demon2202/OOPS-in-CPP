@@ -1,12 +1,3 @@
-# OOPs  Questions in 2024
-
-## Table of Contents
-1. [Basic OOPs Questions]
-2. [OOPs  Questions for Experienced]
-3. [Frequently Asked OOPs  Questions]
-
----
-
 ## Basic OOPs Questions
 
 ## 1. What is OOPs?
