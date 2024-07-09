@@ -27,14 +27,3 @@ cin>>no;
 cout<<"Square of "<<no<<" is ::"<<no*no;
 
 }
-void add(int x,int y)
-
-{
-
-int c;
-
-c=x+y;
-
-cout<<"addition is"<<c;
-
-}
