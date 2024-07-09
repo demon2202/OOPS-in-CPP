@@ -1,9 +1,6 @@
 //Program to add two numbers using functions
 
 #include<iostream>
-
-#include<conio.h>
-
 using namespace std;
 
 int add(void);
