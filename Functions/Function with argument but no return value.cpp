@@ -25,3 +25,16 @@ getch();
 return 0;
 
 }
+int add(void)
+
+{
+
+int a,b;
+
+cout<<"enter 2 numbers::";
+
+cin>>a>>b;
+
+return(a+b);
+
+}
